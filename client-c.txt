@@ -1,4 +1,36 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
+
+START
+	\\ Initialize the program
+
+SET BOX_CONTENTS = 0
+SET MAX_SIZE = 50
+SET SCAN = 2
+
+	\\ Prompt user to scan items
+	
+PRINT "Beginning scanning"
+
+
+while BOX_CONTENTS < 50
+	{	
+		{
+		PRINT "Continue scanning"
+		}
+		
+		
+	BOX_CONTENTS + SCAN
+	
+	}
+
+if BOX_CONTENTS = MAX_SIZE
+	
+	{
+	PRINT "Box full. Start new box."
+	}
+	
+END
+	
 # ------------------------------------------------- #
 

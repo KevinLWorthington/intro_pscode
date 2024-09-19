@@ -1,4 +1,51 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
-# ------------------------------------------------- #
 
+START
+
+	\\Initialize the program
+	
+GET STORE_MAP
+SET CUSTOMER_POSITION = customer(x, y)
+SET DIRECTION = [north], [south], [east], [west]
+SET PRODUCT_POSITION = product(x, y)
+
+	\\ Prompt user for desired product
+	
+PRODUCT = [customer_input]
+PRODUCT_LOCATION = PRODUCT + PRODUCT_POSITION
+
+	\\ Navigate customer to product
+
+SHOW CUSTOMER_POSITION
+SHOW PRODUCT_POSITION
+
+if PRODUCT_LOCATION = CUSTOMER_POSITION
+	{
+	PRINT "You have reached your destination"
+	}
+	
+
+else if PRODUCT_LOCATION = [north]
+	{
+		{
+		PRINT "Move north"
+		}
+	
+	else if PRODUCT_LOCATION = [south]
+		{
+		PRINT "Move south"
+		}
+	else if PRODUCT_LOCATION = [east]
+		{
+		PRINT "Move east"
+		}
+	else if PRODUCT_LOCATION = [west]
+		{
+		PRINT "Move west"
+		}
+	}
+	
+END
+
+# ------------------------------------------------- #
